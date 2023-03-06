@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  place-content: center;
+  align-items: center;
+
+}
+@media (max-width: 600px) {
+  .container{
+    flex-direction: column;
+  }
+  
+}
+body{
+  height: 900px;
+  background-color:aqua ;
+}
+.item{
+  background-color: black;
+  height: 300px;
+  width: 300px; 
+  margin: 10px;
+}
